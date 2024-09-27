@@ -7,22 +7,13 @@
         android:layout_height="match_parent"
         tools:context=".IkinciActivity">
 
-    <EditText
-            android:layout_width="276dp"
-            android:layout_height="71dp"
-            android:inputType="text"
-            android:ems="10"
-            android:id="@+id/editText"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="70dp" android:hint="isminizi giriniz"
-            android:textSize="24sp"/>
     <Button
             android:text="anasayfaya"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/button3"
-            app:layout_constraintTop_toBottomOf="@+id/editText"
-            android:layout_marginTop="50dp" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" android:onClick="anasayfayagec"/>
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:onClick="anasayfayagec"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="200dp"/>
     <TextView
             android:text="isim: "
             android:layout_width="211dp"
