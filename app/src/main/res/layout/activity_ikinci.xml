@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".IkinciActivity">
+
+    <EditText
+            android:layout_width="276dp"
+            android:layout_height="71dp"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/editText"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="70dp" android:hint="isminizi giriniz"
+            android:textSize="24sp"/>
+    <Button
+            android:text="anasayfaya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button3"
+            app:layout_constraintTop_toBottomOf="@+id/editText"
+            android:layout_marginTop="50dp" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:onClick="anasayfayagec"/>
+    <TextView
+            android:text="isim: "
+            android:layout_width="211dp"
+            android:layout_height="55dp" android:id="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button3" android:layout_marginTop="50dp"
+            android:textAlignment="center" android:textSize="24sp"/>
+    <TextView
+            android:text="ikinci sayfadasınız"
+            android:layout_width="260dp"
+            android:layout_height="43dp" android:id="@+id/textView3"
+            android:textSize="24sp" android:textAlignment="center" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView2"
+            android:layout_marginTop="20dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
